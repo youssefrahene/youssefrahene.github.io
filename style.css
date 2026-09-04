@@ -350,12 +350,12 @@ body {
     border-color: #666;
 }
 
-.project-image {
-    height: 300px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.project-image span {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #666;
+    font-weight: 800;
+}
 
     background:
         linear-gradient(
@@ -467,6 +467,13 @@ footer {
 /* =========================
    MOBILE
 ========================= */
+.section-description {
+    color: #777;
+    max-width: 600px;
+    margin-top: -20px;
+    margin-bottom: 35px;
+    font-size: 14px;
+}
 
 @media (max-width: 700px) {
 
