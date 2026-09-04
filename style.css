@@ -350,12 +350,12 @@ body {
     border-color: #666;
 }
 
-.project-image span {
-    font-size: 11px;
-    letter-spacing: 3px;
-    color: #666;
-    font-weight: 800;
-}
+.project-image {
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     background:
         linear-gradient(
@@ -369,6 +369,13 @@ body {
     font-size: 13px;
     font-weight: 900;
     letter-spacing: 3px;
+}
+
+.project-image span {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #666;
+    font-weight: 800;
 }
 
 .project-info {
